@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="kep_auth">
+    <title>Авторизация с помощью средства квалифицированной электронной подписи (КЭП)</title>
+    <shortdesc><ph>Вход в ЕСИА с помощью средства КЭП доступен пользователям, имеющим как
+            стандартную, так и подтвержденную учетную запись, при условии, что в профиле
+            пользователя включена возможность входа с помощью КЭП.</ph></shortdesc>
+    <taskbody>
+        <context>
+            <p>Для авторизации с помощью средства КЭП:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Перейдите на страницу авторизации.</cmd>
+            </step>
+            <step>
+                <cmd>Выберите вариант <uicontrol>Вход с помощью электронной
+                    подписи</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Подключите носитель электронной подписи и нажмите кнопку
+                        <uicontrol>Готово</uicontrol>.</cmd>
+                <stepresult>Отобразится окно выбора ключа проверки электронной подписи.</stepresult>
+            </step>
+            <step>
+                <cmd>В открывшемся окне выберите необходимый сертификат электронной подписи.</cmd>
+                <info>
+                    <fig id="fig_dyh_lv4_12c">
+                        <title>Окно выбора сертификата</title>
+                        <image href="../images/cert_select.png" id="image_hbw_mv4_12c"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Введите код доступа к носителю электронной подписи и нажмите кнопку
+                        <uicontrol>ОК</uicontrol>.</cmd>
+                <stepresult>Отобразится окно ввода пин-кода электронной подписи.<fig
+                        id="fig_kx2_wv4_12c">
+                        <title>Окно ввода пин-кода</title>
+                        <image href="../images/enter_pin.png" id="image_fbl_yv4_12c"/>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>В случае, если электронная подпись защищена пин-кодом, введите его в текстовое
+                    поле <uicontrol>Пин-код</uicontrol> и нажмите кнопку
+                        <uicontrol>Продолжить</uicontrol>. Если у электронной подписи отсутствует
+                    пин-код, нажмите кнопку <uicontrol>Продолжить без пин-кода</uicontrol>.</cmd>
+                <stepresult>После успешного завершения авторизации отобразится страница с профилем
+                    пользователя ЕСИА.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

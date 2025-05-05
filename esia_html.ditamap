@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Авторизация в ЕСИА</mainbooktitle>
+    </booktitle>
+    <chapter href="topics/esia_auth.dita">
+        <topicref href="topics/pwd_auth.dita"/>
+        <topicref href="topics/kep_auth.dita"/>
+        <topicref href="topics/qr_auth.dita"/>
+    </chapter>
+</bookmap>

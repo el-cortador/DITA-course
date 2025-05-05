@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="qr_auth">
+    <title>Авторизация по QR-коду</title>
+    <shortdesc><ph>Авторизация по QR-коду доступна для пользователей, которые ранее успешно
+            авторизовались в приложении «Госуслуги» под своей учетной записью.</ph></shortdesc>
+    <taskbody>
+        <context>
+            <p>Для авторизации по QR-коду:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Перейдите на страницу авторизации.</cmd>
+            </step>
+            <step>
+                <cmd>Выберите вариант <uicontrol>Войти по QR</uicontrol>.</cmd>
+                <stepresult>Откроется страница с изображением QR-кода, который необходимо
+                    отсканировать через приложение «Госуслуги».</stepresult>
+            </step>
+            <step>
+                <cmd>Отсканируйте QR-код через приложение «Госуслуги».</cmd>
+                <stepresult>После успешного сканирования QR-кода будет выполнена автоматическая
+                    авторизация в десктопной версии ЕСИА.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
